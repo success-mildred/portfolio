@@ -1,0 +1,11 @@
+.month{
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p{
+    width: 40%;
+    text-align: justify;
+}

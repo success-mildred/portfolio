@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px;
+    gap: 15px;
+}
+
+[class^="grid-item"]{
+    outline:4px dashed orange;
+}
+
+.grid-items1{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.grid-items9{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.grid-items7{
+    grid-column:2 ;
+    grid-row: 1;
+}

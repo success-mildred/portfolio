@@ -1,0 +1,38 @@
+.FlexWrapper {
+    background-color: indigo;
+    display: flex;
+    flex-direction: column;
+   }
+   .FlexItem {
+    display: flex;
+    align-items: center;
+    min-height: 6.25rem;
+    padding: 1rem;
+   }
+
+
+   .FlexHeader {
+    background-color: #105b63;
+   }
+
+
+   .FlexContent {
+    background-color: #fffad5;
+
+}
+
+
+ .FlexSideOne {
+        background-color: #ffd34e;
+      }
+
+
+       .FlexSideTwo {
+        background-color: #db9e36;
+       }
+
+
+       .FlexFooter {
+        background-color: #bd4932;
+        order: -2;
+       }

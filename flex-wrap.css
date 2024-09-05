@@ -1,0 +1,22 @@
+.container{
+    border: 1px solid red;
+    width: 700px;
+    /* height: 500px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly   ;
+    padding-top: 10px;
+    
+}
+
+.items{
+    width: 200px;
+    height: 60px;
+    border: 1px solid blue;
+}
+
+.grow{
+    flex: 1 0 200px;
+    height: 200px;
+    background-color: blue;
+}

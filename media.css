@@ -1,0 +1,57 @@
+/* mobile */
+@media screen and (max-width:450px) {
+     body{
+        background-color: red;
+     }
+     .month{
+        border: 1px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    p{
+        width: 90%;
+        text-align: justify;
+        line-height: 1.5;
+    }
+}
+
+/* tab */
+@media screen and (min-width:451px) {
+    body{
+        background-color: blue;
+    }
+    .month{
+        border: 1px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    p{
+        width: 70%;
+        text-align: justify;
+        line-height: 1.5;
+        word-spacing: 0.5;
+
+    }
+}
+
+/* desktop */
+@media screen  and (min-width:801px) {
+    body{
+        background-color:yellow;
+    }
+    .month{
+        border: 1px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    p{
+        width: 40%;
+        text-align: justify;
+    }
+}

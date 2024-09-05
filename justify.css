@@ -1,0 +1,43 @@
+.FlexWrapper {
+    background-color: indigo;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 100%;
+   }
+   .FlexItem {
+    background-color: #34005b;
+    display: flex;
+    height: 100px;
+    width: 25%;
+   }
+
+   .item1{
+    flex: 1 0 25%;
+    background-color: orange;
+   }
+
+   .item2{
+    background-color: red;
+    flex: 1.5 1 25%;
+   }
+
+   .item3{
+    background-color: yellow;
+    flex:  0 1 25%;
+   }
+   p{
+    border: 1px solid red;
+   }
+
+   .pixel{
+    width: 500px;
+   }
+
+   .responsive1{
+    width: 50%;
+   }
+
+   .responsive2{
+    width: 100%;
+   }
